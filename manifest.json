@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+
+  "name": "Azure DevOps: Francois Gervais",
+  "version": "1.0.0",
+  "description": "Make some changes to the DevOps page according to my tastes.",
+
+  "content_scripts": [{
+    "css": ["styles.css"],
+    // "js": ["content.js"],
+    "matches": ["https://ablcode.visualstudio.com/*"]
+  }]
+
+}
