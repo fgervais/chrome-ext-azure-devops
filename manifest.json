@@ -7,7 +7,7 @@
 
   "content_scripts": [{
     "css": ["styles.css"],
-    "matches": ["https://ablcode.visualstudio.com/*"]
+    "matches": ["https://*.visualstudio.com/*"]
   }]
 
 }
